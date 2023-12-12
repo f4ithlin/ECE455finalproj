@@ -1,4 +1,3 @@
-# Bypass
 
 ## How to Run
 
