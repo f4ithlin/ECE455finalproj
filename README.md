@@ -29,7 +29,7 @@ To download the browser extension:
 Subscriber: Admin/admin 
 Non-subscriber: Yuri/yuri123 
 
-Login with a Non-subscriber, navigate to /mainArticle refresh page with extension enabled will allow bypass
+Login with a Non-subscriber, navigate to `localhost:3000/mainArticle` refresh page with extension enabled will allow bypass
 
 
 ## Additional Notes
