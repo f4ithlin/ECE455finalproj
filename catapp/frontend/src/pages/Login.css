@@ -1,0 +1,91 @@
+/* Login.css */
+
+.header1-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo1 {
+    width: 50%;
+    overflow: hidden;
+    margin-top: 10px;
+    position: relative;
+    /* Set position to relative to make the pseudo-element absolute */
+    padding-bottom: 15px;
+}
+
+.logo1 img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.logo1::after {
+    content: "";
+    /* Create pseudo-elements for the lines */
+    position: absolute;
+    bottom: 0;
+    /* Position at the bottom */
+    left: 0;
+    right: 0;
+    height: 2px;
+    /* Adjust line thickness */
+    background-color: rgba(0, 0, 0, 0.2);
+
+}
+
+.mb-3 {
+    font-family: Calibri, sans-serif;
+    font-weight: lighter;
+    font-size: 12px;
+}
+
+
+.form-control {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: Calibri, sans-serif;
+}
+
+.alert {
+    margin-bottom: 15px;
+}
+
+.btn {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-success {
+    margin-top: 10px;
+}
+
+.btn-success:active {
+    background-color: #ccc;
+}
+
+.btn-success:hover {
+    background-color: #333;
+}
+/* Login.css */
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.title h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: Normal;
+    font-size: 25px;
+    color: #000;
+}

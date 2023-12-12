@@ -1,0 +1,15 @@
+.site-footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+    font-family: Calibri, sans-serif; /* Apply Calibri font */
+    font-weight: lighter; /* Ensure normal font weight */
+    font-size: 13px;
+  }
+  
+  .site-footer p {
+    margin: 5px 0;
+  }
+  

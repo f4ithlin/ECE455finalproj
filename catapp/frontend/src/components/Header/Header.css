@@ -1,0 +1,75 @@
+/* Header.css */
+
+.site-header {
+  background-color: #fff;
+  border-bottom: 1px solid #e2e2e2;
+  padding: 10px 20px;
+}
+
+.header-content {
+  display: flex;
+  justify-content: center; /* Center items horizontally */
+  align-items: center; /* Center items vertically */
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 10px; /* Adjust margin as needed */
+  /* Additional styles for the info section */
+}
+
+.date {
+  font-weight: bold;
+  /* Additional styles for the date */
+}
+
+
+.logo {
+  width: 40%;
+  overflow: hidden;
+}
+
+.logo img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.utilities-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top:10px;
+  margin-bottom:-30px
+}
+
+.header-utilities {
+  display: flex;
+  align-items: flex-start;
+}
+
+
+
+.subscribe button,
+.login button {
+  background-color: #3178a8; /* Light blue color */
+  color: #fff; /* Text color */
+  border: none;
+  padding: 8px 15px;
+  margin-left: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease; /* Smooth transition on hover */
+  border-radius: 5px; /* Rounded corners */
+  font-family: Calibri, sans-serif; /* Apply Calibri font */
+  font-weight: bolder; /* Ensure normal font weight */
+  font-size: 12px;
+}
+
+.subscribe button:hover,
+.login button:hover {
+  background-color: #2980b9; /* Darker shade for hover effect */
+}

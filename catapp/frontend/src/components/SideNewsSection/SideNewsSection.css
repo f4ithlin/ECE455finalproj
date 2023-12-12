@@ -1,0 +1,71 @@
+.side-news-section {
+    flex: 1;
+    padding-left: 20px;
+    border-left: 1px solid #ccc;
+  }
+  
+  .opinion-piece h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  
+  .opinion-piece p {
+    font-size: 14px;
+  }
+  
+  .nyt-live-news-sidebar {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12px;
+    color: #333; /* Assuming a dark grey text color */
+    width: 25%; /* Adjust the width as necessary */
+    margin-right: 20px; /* Space between the sidebar and main content */
+    text-align: left;
+    border-right: 1px solid #e2e2e2; /* Color and style of the vertical line */
+    padding-right: 12px; /* Adjust spacing between the line and content */
+  }
+
+  .nyt-main-article-live-label {
+    background-color: rgb(237, 110, 110); /* placeholder color */
+    color: white;
+    padding: 2px 6px;
+    font-size: 12px;
+    margin-right: 10px;
+    text-transform: uppercase;
+  }
+
+  .nyt-live-news-item {
+    border-bottom: 1px solid #e2e2e2; /* Light grey border for each item */
+    padding: 10px;
+  }
+  
+  .nyt-live-news-item h2 {
+    color: #000; /* Black color for the LIVE label */
+    font-weight: bold;
+  }
+  
+  .nyt-live-news-time {
+    color: #666; /* Dark grey color for time */
+  }
+  
+  .nyt-live-news-item h3 {
+    font-size: 14px; /* Larger font size for headlines */
+    color: #000; /* Black color for headlines */
+    font-weight: bold;
+  }
+  
+  .nyt-live-news-item p {
+    font-size: 12px; /* Regular font size for details */
+  }
+  
+  /* SideNewsSection.css */
+
+.side-article-link {
+  color: inherit; /* Maintain the original text color */
+  text-decoration: none; /* Remove the default underlined hyperlink style */
+}
+
+.side-article-link:hover {
+  text-decoration: none; /* Show underline on hover */
+  color: rgb(102, 99, 99);
+}
+

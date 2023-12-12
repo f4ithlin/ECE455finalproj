@@ -1,0 +1,108 @@
+/* NavigationBar.css */
+
+
+
+.nyt-nav {
+  background-color: #fff; /* Background color */
+  padding-bottom: 15px; /* Adjust spacing below the lines */
+  padding-top: 5px; /* Adjust spacing above the lines */
+  position: relative; /* Position for pseudo-elements */
+  margin-bottom: 10px; /* Optional margin for space between the lines and content below */
+}
+
+.nyt-nav::before,
+.nyt-nav::after {
+  content: ""; /* Create pseudo-elements for the lines */
+  position: absolute;
+  left: 0;
+  right: 0;
+  border-bottom: 1px solid black; /* Single line */
+}
+
+.nyt-nav::before {
+  bottom: 5px; /* Position the first line at the bottom */
+}
+
+.nyt-nav::after {
+  bottom: 8px; /* Adjust the spacing between the lines */
+}
+
+
+.nyt-nav-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Changed from 'start' to 'center' */
+  width: 100%; /* Ensure the list takes full width of the nav */
+}
+
+.nyt-nav-item {
+  padding: 10px 15px; /* Provide some padding around the items */
+}
+
+.nyt-nav-item a {
+  text-decoration: none; /* Remove default underline */
+  color: black; /* Set the default text color */
+  position: relative; /* Create space for the bold underline */
+  font-family: Calibri, sans-serif; /* Apply Calibri font */
+  font-weight: lighter; /* Ensure normal font weight */
+  font-size: 13px;
+}
+
+.nyt-nav-item a:hover {
+  text-decoration: none; /* Remove default underline on hover */
+  color: black; /* Change text color on hover */
+  /* Add a bold underline effect */
+  background-image: linear-gradient(to top, black, black);
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 3px; /* Adjust the thickness of the underline */
+  transition: background-size 0.3s ease-in-out; /* Smooth transition */
+}
+
+.nyt-nav-item a:hover::before {
+  content: ""; /* Create a pseudo-element for the underline effect */
+  position: absolute;
+  bottom: -2px; /* Adjust the distance of the underline from text */
+  left: 0;
+  right: 0;
+  background-color: black; /* Color of the bold underline */
+  height: 3px; /* Height or thickness of the underline */
+  transform: scaleX(0); /* Initially hide the underline */
+  transition: transform 0.3s ease-in-out; /* Smooth transition */
+}
+
+.nyt-nav-item a:hover::after {
+  content: ""; /* Create a pseudo-element for the bold underline animation */
+  position: absolute;
+  bottom: -2px; /* Adjust the distance of the underline from text */
+  left: 0;
+  right: 0;
+  background-color: black; /* Color of the bold underline */
+  height: 3px; /* Height or thickness of the underline */
+  transform: scaleX(1); /* Show the underline on hover */
+  transition: transform 0.3s ease-in-out; /* Smooth transition */
+}
+
+.header-top {
+  display: flex;
+  align-items: center;
+}
+
+.today-paper {
+  margin-right: 20px; /* Add some spacing between "Today's paper" and the date */
+  padding-bottom: 20px;
+  font-family: Calibri, sans-serif; /* Apply Calibri font */
+  font-weight: normal; /* Ensure normal font weight */
+  font-size: 13px;
+  color:black;
+}
+
+.date {
+  font-family: Calibri, sans-serif; /* Apply Calibri font */
+  font-weight: bolder; /* Ensure normal font weight */
+  font-size: 13px;
+  color:black;
+}

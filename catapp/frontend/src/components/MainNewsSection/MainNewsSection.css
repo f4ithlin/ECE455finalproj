@@ -1,0 +1,93 @@
+/* MainNewsSection.css */
+
+/* Main News Section */
+.nyt-main-news-section {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  width: 100%; /* or the actual width of the news section */
+  margin: 0 auto;
+}
+
+/* Main News Article */
+.nyt-main-article {
+  border-bottom: 1px solid #e2e2e2;
+  display: flex;
+}
+
+.nyt-main-article-image {
+  width: 50%;
+  height: auto;
+  display: block;
+  margin-left: 5px
+}
+
+.nyt-main-article-img {
+  width: 35%;
+  height: auto;
+  display: block;
+  margin-left: 5px
+}
+
+.nyt-main-article-content {
+  padding-right: 10px; /* Adjust the padding to shift text to the left */
+  text-align: left;
+  flex-grow: 1; /* Allow content to expand within flex container */
+}
+
+
+.nyt-main-article-title {
+  font-size: 50px; /* or the actual size used in NYT */
+  font-weight: 500;
+  margin-bottom: 10px;
+  margin-top: 0; 
+}
+
+.nyt-main-article-sub {
+  
+  font-size: 25px; /* or the actual size used in NYT */
+  font-weight: 500;
+  margin-bottom: 10px;
+  margin-top: 0; 
+}
+.nyt-main-article-sub1 {
+  
+  font-size: 25px; /* or the actual size used in NYT */
+  font-weight: bolder;
+  margin-bottom: 10px;
+  margin-top: 0; 
+}
+
+.nyt-main-article-summary {
+  font-size: 16px; /* or the actual size used in NYT */
+  margin-bottom: 10px;
+}
+
+.nyt-main-article-metadata {
+  display: flex;
+  align-items: center;
+  font-size: 14px; /* or the actual size used in NYT */
+  margin-bottom: 10px;
+}
+
+
+.nyt-main-article-read-time {
+  color: rgb(99, 97, 97); /* dark gray color */
+  font-family: Arial, 'Times New Roman', Times, serif;
+  font-size: 13px; /* or the actual size used in NYT */
+  font-weight: lighter;
+}
+
+.main-article-link {
+  color: inherit; /* Maintain the original text color */
+  text-decoration: none; /* Remove the default underlined hyperlink style */
+}
+.main-article-link:hover {
+  text-decoration: none; /* Show underline on hover */
+  color: rgb(102, 99, 99);
+}
+
+.nyt-main-article {
+  border-bottom: 1px solid #e2e2e2;
+  padding: 20px 0;
+  display: flex; /* Use flexbox for layout */
+ 
+}
